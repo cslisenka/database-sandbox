@@ -1,0 +1,1 @@
+psql -h localhost -U user -d mydb -f schema.sql

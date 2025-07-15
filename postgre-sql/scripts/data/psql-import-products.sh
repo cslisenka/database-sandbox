@@ -1,0 +1,1 @@
+psql -h localhost -U user -d mydb -c "\COPY shop.products(id, name, description, category, price, stock_quantity, is_active, created_at) FROM 'products.csv' DELIMITER ',' CSV HEADER;"
